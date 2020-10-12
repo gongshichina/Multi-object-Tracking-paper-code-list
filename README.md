@@ -1,6 +1,30 @@
 Refer to [SpyderXu](https://github.com/SpyderXu/multi-object-tracking-paper-list) with some supplements
 
-# Online
+# 3D&Multi-Modality
+
+|                             Name                             |                            Source                            | Publication |     Notes      |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: | :------------: |
+| Joint 3D Tracking and Forecasting with Graph Neural Network and Diversity Sampling | [[pdf]](https://arxiv.org/abs/2003.07847) [[code]](https://github.com/xinshuoweng/GNNTrkForecast) |    arxiv    | GNNTrkForecast |
+| Graph Neural Network for 3D Multi-Object Tracking with Multi-Feature Learning | [[pdf]](https://arxiv.org/abs/2006.07327) [[code]](https://github.com/xinshuoweng/GNN3DMOT) |  CVPR2020   |    GNN3DMOT    |
+|         Robust Multi-Modality Multi-Object Tracking          | [[pdf]](https://arxiv.org/abs/1909.03850) [[code]](https://github.com/ZwwWayne/mmMOT#) |  ICCV2019   |     mmMOT      |
+|           A baseline for 3D Multi-Object Tracking            | [[pdf]](https://arxiv.xilesou.top/pdf/1907.03961) [[code]](https://github.com/xinshuoweng/AB3DMOT) |    arXiv    |       -        |
+| 3D Object Detection and Tracking Based on Streaming Data | [[pdf]](https://arxiv.org/pdf/2009.06169.pdf)  |    ICRA2020    | DODT |
+| Factor Graph based 3D Multi-Object Tracking in Point Clouds | [[pdf]](https://arxiv.org/pdf/2008.05309)  [[video]](https://www.youtube.com/watch?v=mvZmli4jrZQ)|    IROS2020    | DODT |
+| DeepTracking-Net: 3D Tracking with Unsupervised Learning of Continuous Flow | [[pdf]](https://arxiv.org/pdf/2006.13848) |    arXiv    | 2020.6.24 |
+| Center-based 3D Object Detection and Tracking | [[pdf]](https://arxiv.org/pdf/2006.11275) [[code]](https://github.com/tianweiy/CenterPoint)|    arXiv    | 2020.6.19 |
+| 1st Place Solutions for Waymo Open Dataset Challenges -- 2D and 3D Tracking | [[pdf]](https://arxiv.org/pdf/2006.15506)| arXiv| technical report|
+
+
+# 3D Tracking DataSet
+[nuscenes](https://www.nuscenes.org/): nuScenes包含1000个序列，其中700、150、150个分别用于训练、验证和测试。每个序列大约20秒长，激光雷达频率20 FPS。数据集为每个激光雷达帧提供校准后的车辆姿态信息，但仅每10帧(0.5秒)提供框注释。总共有28k、6k、6k带标签的帧分别用于训练、验证和测试。
+
+
+[Waymo](https://waymo.com/open/): Waymo 数据集包含 3000 段驾驶记录，时长共 16.7 小时，平均每段长度约为 20 秒。整个数据集一共包含 60 万帧，共有大约 2500 万 3D 边界框、2200 万 2D 边界框。
+
+
+[JRDB](https://jrdb.stanford.edu/dataset/about): 最大的用于2D-3D行人跟踪的数据集，采集自5个立体圆柱形360度RGB相机和2个激光雷达传感器采集的超过60K帧(64分钟)的传感器, 包含54个序列，分别来自室内和室外的不同位置， 超过3500条轨迹。
+
+# 2D Online
 |                             Name                             |                            Source                            | Publication | Notes  |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: | :----: |
 | Simultaneous Detection and Tracking with Motion Modelling for Multiple Object Tracking | [[pdf]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123690613.pdf)| ECCV2020| - |
@@ -95,22 +119,6 @@ Refer to [SpyderXu](https://github.com/SpyderXu/multi-object-tracking-paper-list
 | Towards a Principled Integration of Multi-Camera Re-Identification andTracking through Optimal Bayes Filters | [[pdf]](https://arxiv.org/pdf/1705.04608.pdf) [[code]](https://github.com/VisualComputingInstitute/towards-reid-tracking) |     CVPR2017      | towards-reid-tracking |
 
 
-
-
-
-# 3D&Multi-Modality
-
-|                             Name                             |                            Source                            | Publication |     Notes      |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: | :------------: |
-| Joint 3D Tracking and Forecasting with Graph Neural Network and Diversity Sampling | [[pdf]](https://arxiv.org/abs/2003.07847) [[code]](https://github.com/xinshuoweng/GNNTrkForecast) |    arxiv    | GNNTrkForecast |
-| Graph Neural Network for 3D Multi-Object Tracking with Multi-Feature Learning | [[pdf]](https://arxiv.org/abs/2006.07327) [[code]](https://github.com/xinshuoweng/GNN3DMOT) |  CVPR2020   |    GNN3DMOT    |
-|         Robust Multi-Modality Multi-Object Tracking          | [[pdf]](https://arxiv.org/abs/1909.03850) [[code]](https://github.com/ZwwWayne/mmMOT#) |  ICCV2019   |     mmMOT      |
-|           A baseline for 3D Multi-Object Tracking            | [[pdf]](https://arxiv.xilesou.top/pdf/1907.03961) [[code]](https://github.com/xinshuoweng/AB3DMOT) |    arXiv    |       -        |
-| 3D Object Detection and Tracking Based on Streaming Data | [[pdf]](https://arxiv.org/pdf/2009.06169.pdf)  |    ICRA2020    | DODT |
-| Factor Graph based 3D Multi-Object Tracking in Point Clouds | [[pdf]](https://arxiv.org/pdf/2008.05309)  [[video]](https://www.youtube.com/watch?v=mvZmli4jrZQ)|    IROS2020    | DODT |
-| DeepTracking-Net: 3D Tracking with Unsupervised Learning of Continuous Flow | [[pdf]](https://arxiv.org/pdf/2006.13848) |    arXiv    | 2020.6.24 |
-| Center-based 3D Object Detection and Tracking | [[pdf]](https://arxiv.org/pdf/2006.11275) [[code]](https://github.com/tianweiy/CenterPoint)|    arXiv    | 2020.6.19 |
-| 1st Place Solutions for Waymo Open Dataset Challenges -- 2D and 3D Tracking | [[pdf]](https://arxiv.org/pdf/2006.15506)| arXiv| technical report|
 
 ## Review
 

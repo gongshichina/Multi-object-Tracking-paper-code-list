@@ -11,7 +11,7 @@ Refer to [SpyderXu](https://github.com/SpyderXu/multi-object-tracking-paper-list
 | 3D Object Detection and Tracking Based on Streaming Data | [[pdf]](https://arxiv.org/pdf/2009.06169.pdf)  |    ICRA2020    | - |
 | Factor Graph based 3D Multi-Object Tracking in Point Clouds | [[pdf]](https://arxiv.org/pdf/2008.05309)  [[video]](https://www.youtube.com/watch?v=mvZmli4jrZQ)|    IROS2020    | - |
 | DeepTracking-Net: 3D Tracking with Unsupervised Learning of Continuous Flow | [[pdf]](https://arxiv.org/pdf/2006.13848) |    arXiv    | 2020.6.24 |
-| Center-based 3D Object Detection and Tracking | [[pdf]](https://arxiv.org/pdf/2006.11275) [[code]](https://github.com/tianweiy/CenterPoint)|    arXiv    | 2020.6.19 |
+| Center-based 3D Object Detection and Tracking | [[pdf]](https://arxiv.org/pdf/2006.11275) [[code]](https://github.com/tianweiy/CenterPoint)|    arXiv(2020)    | rank1 on nuscene |
 | 1st Place Solutions for Waymo Open Dataset Challenges -- 2D and 3D Tracking | [[pdf]](https://arxiv.org/pdf/2006.15506)| arXiv| rank1 on Waymo|
 |PV-RCNN with simple KF tracker | [[code]](https://github.com/sshaoshuai/PCDet) |-| rank2 on Waymo |
 | Probabilistic 3D Multi-Object Tracking for Autonomous Driving | [[pdf]](https://arxiv.org/abs/2001.05673)| arXiv2020| rank3 on Waymo|

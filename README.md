@@ -31,7 +31,7 @@ Refer to [SpyderXu](https://github.com/SpyderXu/multi-object-tracking-paper-list
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: | :----: |
 | Simultaneous Detection and Tracking with Motion Modelling for Multiple Object Tracking | [[pdf]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123690613.pdf)| ECCV2020| - |
 | Towards Real-Time Multi-Object Tracking | [[pdf]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123560103.pdf) [[code]](https://github.com/Zhongdao/Towards-Realtime-MOT)| ECCV2020 | - |
-| Tracking Objects as Points | [[pdf]](https://arxiv.org/pdf/2004.01177.pdf) [[code]](https://github.com/xingyizhou/CenterTrack)| ECCV 2020 | - |
+| Tracking Objects as Points | [[pdf]](https://arxiv.org/pdf/2004.01177.pdf) [[code]](https://github.com/xingyizhou/CenterTrack)| ECCV 2020 | CenterTrack,rank2 on KITTI |
 | Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking | [[pdf]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490137.pdf)| ECCV2020| - |
 | Segment as Points for Efficient Online Multi-Object Tracking and Segmentation | [[pdf]](https://arxiv.org/pdf/2007.01550) [[code]](https://github.com/detectRecog/PointTrack) |  ECCV2020 oral   |  mots|
 | MAT: Motion-Aware Multi-Object Tracking | [[pdf]](https://arxiv.org/pdf/2009.04794.pdf)  |  arXiv   | 2020.9.18 |

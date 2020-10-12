@@ -13,8 +13,9 @@ Refer to [SpyderXu](https://github.com/SpyderXu/multi-object-tracking-paper-list
 | DeepTracking-Net: 3D Tracking with Unsupervised Learning of Continuous Flow | [[pdf]](https://arxiv.org/pdf/2006.13848) |    arXiv    | 2020.6.24 |
 | Center-based 3D Object Detection and Tracking | [[pdf]](https://arxiv.org/pdf/2006.11275) [[code]](https://github.com/tianweiy/CenterPoint)|    arXiv    | 2020.6.19 |
 | 1st Place Solutions for Waymo Open Dataset Challenges -- 2D and 3D Tracking | [[pdf]](https://arxiv.org/pdf/2006.15506)| arXiv| technical report|
-| Probabilistic 3D Multi-Object Tracking for Autonomous Driving | [[pdf]](https://arxiv.org/abs/2001.05673)| arXiv2020| rank3 on waymo|
 |PV-RCNN with simple KF tracker | [[code]](https://github.com/sshaoshuai/PCDet) |-| rank2 on Waymo |
+| Probabilistic 3D Multi-Object Tracking for Autonomous Driving | [[pdf]](https://arxiv.org/abs/2001.05673)| arXiv2020| rank3 on waymo|
+
 
 # 3D TrackingDataSet
 [nuscenes](https://www.nuscenes.org/): nuScenes包含1000个序列，其中700、150、150个分别用于训练、验证和测试。每个序列大约20秒长，激光雷达频率20 FPS。数据集为每个激光雷达帧提供校准后的车辆姿态信息，但仅每10帧(0.5秒)提供框注释。总共有28k、6k、6k带标签的帧分别用于训练、验证和测试。
